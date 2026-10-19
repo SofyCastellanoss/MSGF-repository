@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Ayhkci2AAtLzy0JtIdbS">
+    <mxGraphModel dx="1213" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="400" width="400" x="270" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-22" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="LlW_QYRmvf6Cq7SGSXEP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="90" width="40" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-44" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" target="LlW_QYRmvf6Cq7SGSXEP-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="90" width="40" x="700" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-32" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;fillColor=#f8cecc;strokeColor=#b85450;" target="LlW_QYRmvf6Cq7SGSXEP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-33" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;fillColor=#f8cecc;strokeColor=#b85450;" target="LlW_QYRmvf6Cq7SGSXEP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="90" width="40" x="120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Estudiante" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Administrador" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entidad Financiadora" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-37" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;strokeWidth=1;dashed=1;dashPattern=1 2;" target="LlW_QYRmvf6Cq7SGSXEP-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU01: Solicitar beca-crédito" vertex="1">
+          <mxGeometry height="50" width="130" x="285" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU07: Evaluar solicitud de la beca" vertex="1">
+          <mxGeometry height="50" width="130" x="284" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU04:&amp;nbsp; Registrar aporte anual de fondos" vertex="1">
+          <mxGeometry height="60" width="130" x="284" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU05: Registrar calificaciones semestrales" vertex="1">
+          <mxGeometry height="70" width="140" x="280" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU08: Generar informe anual" vertex="1">
+          <mxGeometry height="50" width="130" x="290" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU02: Verificar prestatario activo" vertex="1">
+          <mxGeometry height="50" width="130" x="487" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU03: Validad promedio académico" vertex="1">
+          <mxGeometry height="50" width="130" x="487" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="CDU06: Evaluar condonacion o cobro" vertex="1">
+          <mxGeometry height="50" width="130" x="490" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-31" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="LlW_QYRmvf6Cq7SGSXEP-26">
+          <mxGeometry relative="1" x="0.0256" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="355" />
+              <mxPoint x="250" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-34" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.035;entryY=0.623;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=gap;fillColor=#f8cecc;strokeColor=#b85450;" target="LlW_QYRmvf6Cq7SGSXEP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-38" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-18" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=gap;exitX=0.961;exitY=0.618;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;dashed=1;dashPattern=1 1;" target="LlW_QYRmvf6Cq7SGSXEP-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="496.4799999999999" y="465" as="sourcePoint" />
+            <mxPoint x="469.9985185185184" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="10" width="30" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-42" edge="1" parent="1" source="LlW_QYRmvf6Cq7SGSXEP-26" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=gap;dashed=1;dashPattern=1 2;" target="LlW_QYRmvf6Cq7SGSXEP-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="510" as="sourcePoint" />
+            <mxPoint x="310" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="10" width="30" x="440" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="LlW_QYRmvf6Cq7SGSXEP-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sistema de Gestión de Becas-Créditos" vertex="1">
+          <mxGeometry height="30" width="215" x="360" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
