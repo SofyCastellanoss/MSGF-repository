@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="eG5uiwmPc7Ik4KRkIwMX">
+    <mxGraphModel dx="2867" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f0f9ff;strokeColor=#0284c7;fontStyle=1;startSize=30;" value="Clases Límite" vertex="1">
+          <mxGeometry height="540" width="280" x="370" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-2" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0284c7;" value="&lt;&lt;boundary&gt;&gt;&#xa;PantallaMenuPrincipal" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-3" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0284c7;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazCalcularFondo" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-4" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0284c7;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazGestionHipoteca" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-5" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0284c7;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazGestionInversion" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-6" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0284c7;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazImpresionReporte" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-7" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bae6fd;strokeColor=#0369a1;fontStyle=1;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazAporteAnual (Punto 5)" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-8" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bae6fd;strokeColor=#0369a1;fontStyle=1;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazGestionBeca (Punto 5)" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-9" parent="YLEGlTX3EsYhhfUooydr-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bae6fd;strokeColor=#0369a1;fontStyle=1;" value="&lt;&lt;boundary&gt;&gt;&#xa;InterfazEvaluacionSemestral (Punto 5)" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;fontStyle=1;startSize=30;" value="Clases Control" vertex="1">
+          <mxGeometry height="540" width="280" x="730" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-11" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f97316;" value="&lt;&lt;control&gt;&gt;&#xa;GestorLoopSistema" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-12" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f97316;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorCalculoFondo" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-13" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f97316;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorGestionHipoteca" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-14" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f97316;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorGestionInversion" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-15" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#f97316;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorGenerarReporte" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-16" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fed7aa;strokeColor=#c2410c;fontStyle=1;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorAporteAnual (Punto 5)" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-17" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fed7aa;strokeColor=#c2410c;fontStyle=1;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorGestionBeca (Punto 5)" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-18" parent="YLEGlTX3EsYhhfUooydr-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fed7aa;strokeColor=#c2410c;fontStyle=1;" value="&lt;&lt;control&gt;&gt;&#xa;ControladorEvaluacionSemestral (Punto 5)" vertex="1">
+          <mxGeometry height="45" width="240" x="20" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="YLEGlTX3EsYhhfUooydr-19" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-11" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-2" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-20" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-12" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-3" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-21" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-13" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-4" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-22" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-14" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-5" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-23" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-15" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-6" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-24" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-16" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-7" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-25" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-17" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-8" />
+        <mxCell id="YLEGlTX3EsYhhfUooydr-26" edge="1" parent="1" source="YLEGlTX3EsYhhfUooydr-18" style="endArrow=open;dashed=1;html=1;rounded=0;endFill=0;endSize=6;strokeColor=#475569;" target="YLEGlTX3EsYhhfUooydr-9" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
