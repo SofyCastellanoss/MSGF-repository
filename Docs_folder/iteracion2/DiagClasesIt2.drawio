@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="9MFOZoLRgp72natqeUIE">
+    <mxGraphModel dx="1213" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;" value="Activo" vertex="1">
+          <mxGeometry height="136" width="160" x="740" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-2" parent="uBKoKEE8fnhuJNh-A_Am-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="# ID" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-3" parent="uBKoKEE8fnhuJNh-A_Am-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-4" parent="uBKoKEE8fnhuJNh-A_Am-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="Crear()&#xa;Read()&#xa;Update()&#xa;Delete()" vertex="1">
+          <mxGeometry height="76" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;" value="Hipoteca" vertex="1">
+          <mxGeometry height="176" width="170" x="450" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-6" parent="uBKoKEE8fnhuJNh-A_Am-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="pareja&#xa;valor_inicial&#xa;fecha_otorgada&#xa;ingresos_sem&#xa;impuesto&#xa;seguro&#xa;fecha_imp&#xa;fecha_seg" vertex="1">
+          <mxGeometry height="150" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;" value="Inversion" vertex="1">
+          <mxGeometry height="116" width="150" x="660" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-8" parent="uBKoKEE8fnhuJNh-A_Am-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="entidad&#xa;valor&#xa;plazos&#xa;interes" vertex="1">
+          <mxGeometry height="90" width="150" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;" value="BecaCredito" vertex="1">
+          <mxGeometry height="154" width="180" x="850" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-10" parent="uBKoKEE8fnhuJNh-A_Am-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="estudiante&#xa;monto_semestral&#xa;estado&#xa;fecha_otorgamiento" vertex="1">
+          <mxGeometry height="70" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-11" parent="uBKoKEE8fnhuJNh-A_Am-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-12" parent="uBKoKEE8fnhuJNh-A_Am-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="otorgarBeca()&#xa;evaluarCondonacion()" vertex="1">
+          <mxGeometry height="50" width="180" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;" value="AporteAnual" vertex="1">
+          <mxGeometry height="144" width="170" x="1090" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-14" parent="uBKoKEE8fnhuJNh-A_Am-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="anio&#xa;monto_total&#xa;monto_disponible&#xa;entidad_donante" vertex="1">
+          <mxGeometry height="70" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-15" parent="uBKoKEE8fnhuJNh-A_Am-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-16" parent="uBKoKEE8fnhuJNh-A_Am-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="registrarAporte()&#xa;descontarMonto()" vertex="1">
+          <mxGeometry height="40" width="170" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;whiteSpace=wrap;" value="RegistroSemestral" vertex="1">
+          <mxGeometry height="154" width="190" x="845" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-18" parent="uBKoKEE8fnhuJNh-A_Am-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="semestre&#xa;promedio_notas&#xa;costo_matricula&#xa;estado_pago" vertex="1">
+          <mxGeometry height="70" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-19" parent="uBKoKEE8fnhuJNh-A_Am-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-20" parent="uBKoKEE8fnhuJNh-A_Am-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;html=1;" value="presentarNotas()&#xa;procesarCondonacion()" vertex="1">
+          <mxGeometry height="50" width="190" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-21" edge="1" parent="1" source="uBKoKEE8fnhuJNh-A_Am-5" style="endArrow=block;endFill=0;html=1;rounded=0;" target="uBKoKEE8fnhuJNh-A_Am-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-22" edge="1" parent="1" source="uBKoKEE8fnhuJNh-A_Am-7" style="endArrow=block;endFill=0;html=1;rounded=0;" target="uBKoKEE8fnhuJNh-A_Am-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-23" edge="1" parent="1" source="uBKoKEE8fnhuJNh-A_Am-9" style="endArrow=block;endFill=0;html=1;rounded=0;" target="uBKoKEE8fnhuJNh-A_Am-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-24" edge="1" parent="1" source="uBKoKEE8fnhuJNh-A_Am-5" style="endArrow=none;html=1;rounded=0;dashed=1;" target="uBKoKEE8fnhuJNh-A_Am-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-25" edge="1" parent="1" source="uBKoKEE8fnhuJNh-A_Am-13" style="endArrow=none;html=1;rounded=0;" target="uBKoKEE8fnhuJNh-A_Am-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uBKoKEE8fnhuJNh-A_Am-26" edge="1" parent="1" source="uBKoKEE8fnhuJNh-A_Am-9" style="endArrow=diamond;endFill=1;html=1;rounded=0;" target="uBKoKEE8fnhuJNh-A_Am-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
